@@ -11,3 +11,8 @@ data/raw/*.zip
 data/raw/*.parquet
 projects/*/data/raw/*.zip
 projects/*/data/raw/*.parquet
+
+# Freddie Mac raw loan-level files
+projects/topic1_credit_scoring/data/raw/freddie/*.txt
+projects/topic1_credit_scoring/data/raw/freddie/*.zip
+projects/topic1_credit_scoring/data/raw/freddie_sample.csv

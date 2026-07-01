@@ -1,2 +1,5 @@
-dataset,status,diagnostic,reason,claim_boundary
-Freddie Mac Sample,not_available,conformal_fnr_control,Missing data/raw/freddie_sample.csv,Conformal risk-control diagnostics are not completed until an actual freddie_sample.csv file is added and this script is rerun.
+dataset,status,target_fnr,review_share,score_threshold,review_count,captured_delinquency_count,missed_delinquency_count,total_delinquency_count,capture_rate,fnr_risk,precision_in_reviewed_group,claim_boundary
+Freddie Mac Sample,target_not_reached,0.05,0.8,0.05328594630936177,40023,3781,262,4043,0.9351966361612664,0.06480336383873361,0.09447067935936836,Conformal-style risk control constrains a selected error type under this sample split. It is not a deployment guarantee.
+Freddie Mac Sample,completed,0.1,0.75,0.0584722307171607,37500,3685,358,4043,0.9114518921592877,0.08854810784071235,0.09826666666666667,Conformal-style risk control constrains a selected error type under this sample split. It is not a deployment guarantee.
+Freddie Mac Sample,completed,0.2,0.55,0.08233566898244754,27500,3262,781,4043,0.8068266139005689,0.1931733860994311,0.11861818181818182,Conformal-style risk control constrains a selected error type under this sample split. It is not a deployment guarantee.
+Freddie Mac Sample,completed,0.3,0.45,0.09734710335595062,22530,2963,1080,4043,0.7328716299777392,0.2671283700222607,0.13151353750554814,Conformal-style risk control constrains a selected error type under this sample split. It is not a deployment guarantee.
