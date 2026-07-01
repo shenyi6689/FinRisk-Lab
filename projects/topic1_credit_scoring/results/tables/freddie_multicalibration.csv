@@ -1,0 +1,2 @@
+dataset,status,diagnostic,reason,claim_boundary
+Freddie Mac Sample,not_available,multicalibration,Missing data/raw/freddie_sample.csv,Multicalibration is not completed until an actual freddie_sample.csv file is added and this script is rerun.
