@@ -1,0 +1,3 @@
+model,expected_calibration_error,maximum_absolute_calibration_gap,high_risk_bin,high_risk_mean_predicted_risk,high_risk_realized_default_rate,high_risk_calibration_gap,interpretation,diagnostic_boundary
+logistic_regression,0.23479559973295813,0.3534960357751827,9,0.8051748455101516,0.66,0.14517484551015158,high-risk bin overestimates realized default rate,"This is a probability reliability diagnostic, not proof that the model is deployment-ready or legally compliant."
+hist_gradient_boosting,0.011912507191039716,0.025600896895947134,9,0.7034550925653864,0.6888888888888889,0.014566203676497524,high-risk bin overestimates realized default rate,"This is a probability reliability diagnostic, not proof that the model is deployment-ready or legally compliant."

@@ -1,0 +1,6 @@
+item,value
+train_test_split,"test_size=0.3, random_state=42, stratify=target_default"
+preprocessing_logistic_regression,median imputation + standard scaling
+preprocessing_hist_gradient_boosting,median imputation
+logistic_regression_params,"max_iter=1000, class_weight=balanced"
+hist_gradient_boosting_params,"max_iter=200, learning_rate=0.05, max_leaf_nodes=31"
