@@ -1,0 +1,8 @@
+component,source_column,weight,direction,source_column_missing,mean_scaled_component,max_scaled_component,definition,claim_boundary
+return_shock,abs_return_z_30d,0.22,positive_tail,0,0.5000435274658309,1.0,Large absolute return shocks relative to recent asset history.,"Transparent score components are alert signals, not proof of fraud."
+volume_shock,volume_z_30d,0.18,positive_tail,0,0.5000435274658309,1.0,Abnormal trading volume relative to recent asset history.,"Transparent score components are alert signals, not proof of fraud."
+intraday_instability,intraday_range_z_30d,0.18,positive_tail,0,0.5000435274658309,1.0,Abnormal intraday high-low range.,"Transparent score components are alert signals, not proof of fraud."
+drawdown_stress,drawdown_30d,0.18,negative_tail,0,0.5000435274658309,1.0,Price drawdown from recent 30-day rolling peak.,"Transparent score components are alert signals, not proof of fraud."
+stablecoin_peg_stress,stablecoin_peg_deviation,0.14,absolute_level,0,0.5000435274658309,1.0,Absolute stablecoin price deviation from one dollar.,"Transparent score components are alert signals, not proof of fraud."
+defi_volume_context,dex_volume_z_30d,0.05,positive_tail,0,0.5000435274658309,0.9997388352050144,Aggregate DEX volume abnormality.,"Transparent score components are alert signals, not proof of fraud."
+chain_tvl_context,chain_tvl_z_30d,0.05,absolute_tail,0,0.500043527465831,1.0,Mapped chain TVL abnormality.,"Transparent score components are alert signals, not proof of fraud."

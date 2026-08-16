@@ -1,0 +1,5 @@
+label,positive_count,positive_rate,claim_boundary
+weak_label_7d,300,0.026116479498563595,Placebo labels are validity checks; they are not alternative incident truths.
+placebo_7d_shift_plus_90,270,0.023504831548707233,Placebo labels are validity checks; they are not alternative incident truths.
+placebo_7d_shift_minus_90,270,0.023504831548707233,Placebo labels are validity checks; they are not alternative incident truths.
+placebo_7d_random_by_asset,300,0.026116479498563595,Placebo labels are validity checks; they are not alternative incident truths.

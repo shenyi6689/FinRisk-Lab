@@ -1,0 +1,11 @@
+item_type,path,exists
+directory,projects/topic2_blockchain_risk/data/raw,True
+directory,projects/topic2_blockchain_risk/data/processed,True
+directory,projects/topic2_blockchain_risk/results/tables,True
+directory,projects/topic2_blockchain_risk/results/figures,True
+directory,projects/topic2_blockchain_risk/scripts,True
+directory,projects/topic2_blockchain_risk/docs,True
+file,projects/topic2_blockchain_risk/README.md,True
+file,projects/topic2_blockchain_risk/docs/claim_boundary.md,True
+file,projects/topic2_blockchain_risk/docs/data_notes.md,True
+file,projects/topic2_blockchain_risk/data/raw/crypto_incidents_seed.csv,True

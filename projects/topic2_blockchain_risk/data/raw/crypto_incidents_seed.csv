@@ -1,0 +1,6 @@
+event_id,event_date,asset,event_type,severity,brief,source_note,source_url,affected_assets
+E001,2022-05-09,USDT,stablecoin_depeg,high,Terra/Luna collapse stress spilled into stablecoin markets,public incident source,https://www.reuters.com/technology/stablecoin-tether-breaks-dollar-peg-falls-095-2022-05-12/,"USDT,USDC,BTC,ETH"
+E002,2022-11-08,BNB,exchange_failure,high,FTX crisis public disclosure and exchange-sector stress,public incident source,https://www.reuters.com/technology/crypto-exchange-binance-says-it-will-buy-rival-ftxcom-2022-11-08/,"BNB,BTC,ETH,SOL"
+E003,2023-03-11,USDC,stablecoin_depeg,high,USDC depeg during Silicon Valley Bank reserve concerns,public incident source,https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes,"USDC,USDT,BTC,ETH"
+E004,2023-06-05,BNB,regulatory_action,medium,SEC action against Binance-related entities and market stress,public incident source,https://www.sec.gov/newsroom/press-releases/2023-101-sec-files-13-charges-against-binance-entities-founder-changpeng-zhao,"BNB,BTC,ETH"
+E005,2024-03-15,SOL,network_stress,medium,Solana congestion and block-optimization period,public incident source,https://solana.com/uk/news/block-optimization-on-the-solana-network,"SOL,BTC,ETH"

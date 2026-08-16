@@ -1,0 +1,25 @@
+feature,definition,role
+log_return,Daily log return from Yahoo close price.,market stress
+abs_log_return,Absolute daily log return.,volatility proxy
+rolling_vol_7d,7-day rolling standard deviation of log returns.,short-horizon volatility
+rolling_vol_30d,30-day rolling standard deviation of log returns.,medium-horizon volatility
+volume_z_30d,30-day rolling z-score of log trading volume.,volume abnormality
+return_z_30d,30-day rolling z-score of daily log return.,return abnormality
+abs_return_z_30d,30-day rolling z-score of absolute return.,volatility shock
+drawdown_30d,Close price relative to 30-day rolling peak minus one.,drawdown stress
+intraday_range,High-low range divided by close.,intraday instability
+intraday_range_z_30d,30-day rolling z-score of intraday range.,range abnormality
+stablecoin_peg_deviation,Absolute deviation from one dollar for USDC/USDT.,stablecoin peg stress
+stablecoin_depeg_1pct,Indicator for stablecoin price deviation of at least 1%.,stablecoin depeg flag
+AdrActCnt_log,Log active address count from Coin Metrics where available.,network context
+TxCnt_log,Log transaction count from Coin Metrics where available.,network context
+CapMrktCurUSD_log,Log market capitalization from Coin Metrics where available.,market-size context
+SplyCur_log,Log current supply from Coin Metrics where available.,supply context
+total_dex_volume_log,Log aggregate DeFiLlama DEX volume.,DeFi market context
+dex_volume_z_30d,30-day z-score of aggregate DEX volume.,DeFi market stress
+chain_tvl_log,Log DeFiLlama chain TVL mapped to asset chain.,chain liquidity context
+chain_tvl_z_30d,30-day z-score of mapped chain TVL.,chain liquidity stress
+weak_label_3d,Indicator for public incident window within +/-3 calendar days.,weak label
+weak_label_7d,Indicator for public incident window within +/-7 calendar days.,weak label
+event_count_3d,Number of public events linked to asset-day within +/-3 days.,weak-label intensity
+event_count_7d,Number of public events linked to asset-day within +/-7 days.,weak-label intensity

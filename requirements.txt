@@ -5,3 +5,8 @@ scikit-learn
 statsmodels
 jupyter
 ucimlrepo
+yfinance
+requests
+ruptures
+arch
+scipy

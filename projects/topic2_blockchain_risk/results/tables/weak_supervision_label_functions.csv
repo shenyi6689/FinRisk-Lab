@@ -1,0 +1,9 @@
+label_function,weight,fires_count,coverage_rate,weak_label_7d_rate_when_fires,definition,claim_boundary
+lf_transparent_top5,0.2,580,0.05049186036388961,0.10344827586206896,Transparent risk score is in the asset-specific top 5%.,"Label functions are noisy heuristic alerts, not verified fraud labels."
+lf_anomaly_top5,0.2,579,0.05040480543222774,0.12607944732297063,Anomaly ensemble score is in the asset-specific top 5%.,"Label functions are noisy heuristic alerts, not verified fraud labels."
+lf_return_volume_joint,0.15,366,0.03186210498824758,0.13114754098360656,Absolute return shock and volume shock are both in the asset-specific top 10%.,"Label functions are noisy heuristic alerts, not verified fraud labels."
+lf_range_drawdown_joint,0.15,167,0.014538173587533733,0.12574850299401197,Intraday range shock and drawdown stress are both in the asset-specific top 10%.,"Label functions are noisy heuristic alerts, not verified fraud labels."
+lf_stablecoin_depeg,0.15,9,0.0007834943849569079,0.6666666666666666,Stablecoin deviates from one dollar by at least 0.5%.,"Label functions are noisy heuristic alerts, not verified fraud labels."
+lf_defi_context_shock,0.05,970,0.08444328371202228,0.07628865979381444,DEX volume or mapped chain TVL context is in an extreme asset-specific tail.,"Label functions are noisy heuristic alerts, not verified fraud labels."
+lf_multimethod_consensus,0.1,439,0.038217114999564726,0.1571753986332574,Transparent and anomaly scores are both in the asset-specific top 10%.,"Label functions are noisy heuristic alerts, not verified fraud labels."
+all_label_functions_summary,1.0000000000000002,1735,0.15104030643335944,0.06512968299711816,Any label function fires.,Aggregated weak supervision remains noisy and weak-label based.

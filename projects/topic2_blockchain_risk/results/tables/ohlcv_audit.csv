@@ -1,0 +1,7 @@
+asset,ticker,file_status,start_date,end_date,n_rows,n_calendar_days,coverage_ratio,missing_close_ratio,missing_volume_ratio,zero_or_negative_price_days,zero_volume_days,duplicate_date_count,notes
+BTC,BTC-USD,available,2021-01-01,2025-06-29,1641,1641,1.0,0.0,0.0,0,0,0,"Daily Yahoo OHLCV downloaded. Crypto trades continuously, so calendar-day coverage is expected to be high."
+ETH,ETH-USD,available,2021-01-01,2025-06-29,1641,1641,1.0,0.0,0.0,0,0,0,"Daily Yahoo OHLCV downloaded. Crypto trades continuously, so calendar-day coverage is expected to be high."
+BNB,BNB-USD,available,2021-01-01,2025-06-29,1641,1641,1.0,0.0,0.0,0,0,0,"Daily Yahoo OHLCV downloaded. Crypto trades continuously, so calendar-day coverage is expected to be high."
+SOL,SOL-USD,available,2021-01-01,2025-06-29,1641,1641,1.0,0.0,0.0,0,0,0,"Daily Yahoo OHLCV downloaded. Crypto trades continuously, so calendar-day coverage is expected to be high."
+USDC,USDC-USD,available,2021-01-01,2025-06-29,1641,1641,1.0,0.0,0.0,0,0,0,"Daily Yahoo OHLCV downloaded. Crypto trades continuously, so calendar-day coverage is expected to be high."
+USDT,USDT-USD,available,2021-01-01,2025-06-29,1641,1641,1.0,0.0,0.0,0,0,0,"Daily Yahoo OHLCV downloaded. Crypto trades continuously, so calendar-day coverage is expected to be high."

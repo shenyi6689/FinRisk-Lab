@@ -1,0 +1,6 @@
+data_layer,n_datasets,available_count,failed_or_missing_count,total_rows,coverage_status,claim_boundary
+Layer 1: Yahoo OHLCV,6,6,0,9846,complete,Coverage status describes data availability only; it does not validate incident truth or causal identification.
+Layer 2/3: Coin Metrics,24,16,8,26272,partial,Coverage status describes data availability only; it does not validate incident truth or causal identification.
+Layer 2/3: DeFiLlama,6,6,0,14089,complete,Coverage status describes data availability only; it does not validate incident truth or causal identification.
+Layer 4: Incident ledger,1,1,0,5,complete,Coverage status describes data availability only; it does not validate incident truth or causal identification.
+Layer 4: Weak-label windows,1,1,0,396,complete,Coverage status describes data availability only; it does not validate incident truth or causal identification.

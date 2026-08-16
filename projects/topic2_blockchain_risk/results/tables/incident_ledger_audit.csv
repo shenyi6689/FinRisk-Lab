@@ -1,0 +1,5 @@
+check_name,status,n_failed,details,claim_boundary
+required_columns,passed,0,All required incident ledger columns are present.,Column completeness does not mean incident truth is verified.
+row_level_validation,passed,0,"Row-level validation checks date range, asset coverage, source URL, event type, and severity.",Warnings should be disclosed in the report and not treated as evidence of fraud.
+severity_distribution,passed,0,"{'high': 3, 'medium': 2}","Severity is a manual research label, not a legal classification."
+event_type_distribution,passed,0,"{'stablecoin_depeg': 2, 'exchange_failure': 1, 'regulatory_action': 1, 'network_stress': 1}",Event type is a research category used for stratified diagnostics.
